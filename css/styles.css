@@ -430,14 +430,14 @@ margin: auto;
 display: block;
 }
 
-.сontact-our-team {
+.contact-our-team {
     display: flex;
     justify-content: center;
     gap: 24px;
     margin-top: 8px;
 }
 
-.сontact-our-team-list {
+.contact-our-team-list {
     display: list-item;
 }
 
@@ -445,7 +445,7 @@ display: block;
     fill: #f4f4fd;
 }
 
-.сontact-our-team-link {
+.contact-our-team-link {
 display: flex;
 justify-content: center;
 align-items: center;
@@ -457,3 +457,7 @@ height: 40px;
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.contact-our-team-link:hover
+.contact-our-team-link:focus {
+    background-color: #404bbf;
+}
